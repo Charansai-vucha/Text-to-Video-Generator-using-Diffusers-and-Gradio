@@ -1,0 +1,17 @@
+# Step 1: Open Google Colab and create a new notebook.
+
+# Step 2: Change the runtime type to GPU:
+# Runtime -> Change runtime type -> Select "GPU"
+
+# Step 3: Install necessary packages:
+!pip install diffusers transformers accelerate torch gradio
+
+# Step 4: Save the code to a file (optional for reuse):
+%%writefile text_to_video_app.py
+# [Paste code from text_to_video_app.py here]
+
+# Step 5: Run the code in a cell:
+# [Paste text_to_video_app.py code here if not using writefile]
+
+# Step 6: Once executed, the Gradio interface will appear below.
+# Enter a text prompt and select duration to generate a video.
